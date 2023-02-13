@@ -1,0 +1,21 @@
+Here are some of the key differences between HTTP1.1 and HTTP2:
+
+Multiplexing: HTTP1.1 operates in a request-response mode, meaning that a client has to wait for the response from a server before sending the next request. HTTP2 introduces multiplexing, allowing multiple requests to be sent over a single connection simultaneously. This results in faster page load times and reduced latency.
+
+Header Compression: In HTTP1.1, header data is sent in plain text, resulting in increased bandwidth usage. HTTP2 introduces header compression, reducing the size of header data and thus improving overall performance.
+
+Server Push: HTTP2 introduces server push, which allows a server to push data to a client before it has been requested. This results in faster page load times and reduced latency.
+
+Binary Format: HTTP1.1 operates in a plain text format. HTTP2 introduces a binary format, which is more efficient and less prone to errors compared to plain text.
+
+Objects and its Internal Representation in Javascript
+
+In Javascript, an object is a data structure that consists of key-value pairs. The key represents the property name, while the value represents the property value. Objects are used to store data and are widely used in Javascript for many purposes, such as representing complex data structures, creating custom objects, and organizing data.
+
+The internal representation of an object in Javascript is called the Object Internal Property. It consists of three main components:
+
+[[Prototype]]: This property is used to link objects to their prototype. It allows objects to inherit properties and methods from their prototype.
+
+[[Class]]: This property is used to identify the type of an object. It can have one of the following values: "Object", "Array", "Function", "String", etc.
+
+[[Extensible]]: This property is used to control the ability to add new properties to an object. If an object is extensible, new properties can be added, otherwise, it is non-extensible, and new properties cannot be added.
